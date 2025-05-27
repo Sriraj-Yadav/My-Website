@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Frames</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Captures</h1>
+    <p>A collection of moments from the Natural Habitat</p>
+  </header>
+  </style>
+
+
+    <main class="gallery">
+        <div bgcolor:yellow class="photo-card" onclick="openModal('Bee-eater.jpeg', 'A Green Bee-eater in Flight.')">
+            <img src="Desktop/Images/Bee-eater.jpeg" alt="Green Bee-eater">
+            <p>A Green Bee-eater in Flight.</p>
+        </div>
+
+        <div class="photo-card" onclick="openModal('greenvine.jpeg.jpg', 'A Green Vine Snake.')">
+            <img src="Desktop/Images/greenvine.jpeg" alt="Green vine snake">
+            <p>A Green Vine Snake.</p>
+        </div>
+
+        <div class="photo-card" onclick="openModal('barheaded.jpg', 'A Pair of Bar-headed Goose.')">
+            <img src="Desktop/Images/barheaded.jpeg" alt="Bird">
+            <p>A Pair of Bar-headed Goose.</p>
+        </div>
+
+        <div class="photo-card" onclick="openModal('piedhornbill.jpeg', 'A Pied Hornbill.')">
+            <img src="Desktop/Images/piedhornbill.jpeg" alt="Bird">
+            <p>Pied Hornbill.</p>
+        </div>
+
+        <div class="photo-card" onclick="openModal('trogon.jpeg', 'A Male Trogon on Perch.')">
+            <img src="Desktop/Images/trogon.jpeg" alt="Bird">
+            <p>A Male Trogon </p>
+        </div>
+
+        <div class="photo-card" onclick="openModal('glidingfrog.jpeg', 'A Gliding Frog.')">
+            <img src="Desktop/Images/glidingfrog.jpeg" alt="Frog">
+            <p>Gliding Frog</p>
+        </div>
+
+        <div class="photo-card" onclick="openModal('myimage.jpeg', 'Me')">
+            <img src="Desktop/Images/myimage.jpeg" alt="Person">
+            <p>Me.</p>
+        </div>
+
+        
+    </main>
+
+
+    <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="caption"></div>
+    </div>
+    <div class="photo-card" onclick="openModal('images/YOUR_IMAGE.jpg', 'Your description here')">
+    <img src="images/YOUR_IMAGE.jpg" alt="Alt text">
+    <p>Your description here</p>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
